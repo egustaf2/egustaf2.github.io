@@ -10,3 +10,8 @@ header, footer
 	text-align: center;
 	text-decoration: none;
 }
+
+main h2
+{
+    text-align: center;
+}
