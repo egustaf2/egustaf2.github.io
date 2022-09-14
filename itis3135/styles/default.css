@@ -20,5 +20,7 @@ form
 {
     text-align: center;
     border-style: inset;
-
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
 }
