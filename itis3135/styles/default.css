@@ -27,6 +27,28 @@ main h2
     text-align: center;
 }
 
+main h3
+{
+    text-align: center;
+}
+
+main .tableCaption
+{
+    text-align: left;
+    text-decoration: underline;
+}
+
+main figure
+{
+    text-align: center;
+}
+
+
+table
+{
+    border: rgb(82, 82, 82);
+}
+
 form
 {
     text-align: center;
