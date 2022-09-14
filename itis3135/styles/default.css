@@ -38,7 +38,7 @@ main .listCaption
     text-decoration: underline;
 }
 
-main .tableCaption
+main .tableCaption, figcaption
 {
     padding-bottom: 15px;
     padding-top: 30px;
@@ -55,15 +55,29 @@ table
     margin-right: auto;
 }
 
+table .head
+{
+    background-color: #879e84;
+}
+
+table .foot
+{
+    background-color: #879e84;
+}
+
+table tr
+{
+    background-color:#a5baa2;
+}
+
+table .odd
+{
+    background-color:#c2dbbf;
+}
+
 main figure
 {
     text-align: center;
-}
-
-main figcaption
-{
-    padding-top: 15px;
-    padding-bottom: 30px;
 }
 
 form
