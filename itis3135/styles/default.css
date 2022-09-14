@@ -10,6 +10,18 @@ header, footer
 	text-align: center;
 }
 
+a:link
+{
+    color:rgb(82, 82, 82);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover
+{
+    color:#a5baa2;
+}
+
 main h2
 {
     text-align: center;
