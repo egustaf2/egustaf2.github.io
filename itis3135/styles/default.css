@@ -19,5 +19,6 @@ main h2
 form
 {
     text-align: center;
-    
+    border-style: inset;
+
 }
