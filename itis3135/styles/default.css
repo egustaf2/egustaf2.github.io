@@ -10,6 +10,16 @@ header, footer
 	text-align: center;
 }
 
+figure img
+{
+    width: 300px;
+}
+
+figcaption
+{
+    padding-top: 10px;
+}
+
 a:link
 {
     color:rgb(82, 82, 82);
@@ -38,7 +48,7 @@ main .listCaption
     text-decoration: underline;
 }
 
-main .tableCaption, figcaption
+main .tableCaption
 {
     padding-bottom: 15px;
     padding-top: 30px;
