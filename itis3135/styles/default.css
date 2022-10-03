@@ -20,11 +20,12 @@ figcaption
     padding-top: 10px;
 }
 
-a:link
+a:link , a:visited
 {
     color:rgb(82, 82, 82);
     text-decoration: none;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 a:hover
