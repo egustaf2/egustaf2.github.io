@@ -61,10 +61,27 @@ function welcome()
     var base = 100;
     var pages = 50;
 
-    var numberOfPages = prompt("The base cost for a website is $100 and each added page  costs $50. How many pages do you want your website to have?")
+    var numberOfPages = prompt("The base cost for a website is $100 and each added page costs $50. How many pages do you want your website to have?")
     numberOfPages = parseInt(numberOfPages);
     var cost = base + pages * numberOfPages;
     alert("The cost of your website will be $" + cost);
  }
 
- 
+ function multiWebsiteCost()
+ {
+    var website = 100;
+    var pages = 50;
+
+    var numberOfWebsites = prompt("The base cost for each website is $100. How many wesites do you need created?");
+    numberOfWebsites = parseInt(numberOfWebsites);
+    var numberOfPages = prompt("The base cost for rach page is $50. How many pages do you want each website to have?");
+    numberOfPages = parseInt(numberOfPages);
+    var cost = website * numberOfWebsites + (pages * numberOfPages) * 2;
+    alert("The total cost will be $" + cost);
+ }
+
+ function critiqueUs()
+ {
+    var critique = prompt("Tell us what we need to change!");
+    alert("Thank you for your critique! We will take your comment, " + critique + ", into consideration.");
+ }
