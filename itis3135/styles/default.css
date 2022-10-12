@@ -56,6 +56,11 @@ main .tableCaption
     
 }
 
+main .leftAlign
+{
+    text-align: left;
+}
+
 table
 {
     color:rgb(82, 82, 82);
