@@ -31,10 +31,10 @@ function dateAndTime()
     document.getElementById("dateTimeOutput").innerHTML = fullDateAndTime;
 }
 
-function greeting()
+function welcome()
 {
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
-    let welcome = "Gustafson Designs welcomes you, " + name + "! We're glad that you are " + feeling + "!";
+    let fullWelcome = "Gustafson Designs welcomes you, " + name + "! We're glad that you are " + feeling + "!";
     document.getElementById(welcomeOutput).innerHTML = welcome;
  }
