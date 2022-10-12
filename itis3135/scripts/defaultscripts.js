@@ -38,3 +38,15 @@ function welcome()
     let fullWelcome = "Gustafson Designs welcomes you, " + name + "! We're glad that you are " + feeling + "!";
     document.getElementById("welcomeOutput").innerHTML = fullWelcome;
  }
+
+ function complementUs()
+ {
+    var complement = prompt("Say something we do that you like!");
+    alert("Thank you for you for saying we " + complement + "! We try our best to make out customers happy.");
+ }
+
+ function critiqueUs()
+ {
+    var critique = prompt("Is there anything you think we need to change?");
+    alert("Thank you for your response! We will take your comment, " + critique + ", into consideration!");
+ }
