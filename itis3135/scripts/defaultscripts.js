@@ -45,8 +45,26 @@ function welcome()
     alert("Thank you for you for saying we " + complement + "! We try our best to make out customers happy.");
  }
 
- function critiqueUs()
+ function totalPages()
  {
-    var critique = prompt("Is there anything you think we need to change?");
-    alert("Thank you for your response! We will take your comment, " + critique + ", into consideration!");
+    var amountOfWebsites = prompt("How many websites do you want?");
+    amountOfWebsites = parseFloat(amountOfWebsites);
+    var amountOfPages = prompt("How many pages do you want each website to have?");
+    amountOfPages = parseFloat(amountOfPages);
+    var numberOfPages = amountOfWebsites*amountOfPages;
+    numberOfPages = parseInt(numberOfPages);
+    alert(numberOfPages + " pages are going to be created.");
  }
+
+ function websiteCost()
+ {
+    var base = 100;
+    var pages = 50;
+
+    var numberOfPages = prompt("The base cost for a website is $100 and each added page  costs $50. How many pages do you want your website to have?")
+    numberOfPages = parseInt(numberOfPages);
+    var cost = base + pages * numberOfPages;
+    alert("The cost of your website will be $" + cost);
+ }
+
+ 
