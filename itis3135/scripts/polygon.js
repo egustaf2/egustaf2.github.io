@@ -1,37 +1,34 @@
-function alertUser()
+function getPolygon()
 {
-    var num = prompt("The Elegant Goose would like you to pick a number betweem 1 and 10 to find the polygon!");
-    validateNum(num);
+    var enterNumber = prompt("The Elegant Goose would like you to pick a number betweem 1 and 10 to find the polygon!");
+    validateEntry(enterNumber);
 }
 
-function validateEntry(num)
+function validateEntry(number)
 {
-    if(isNaN(num))
+    if(isNaN(number))
     {
-        return false;
+        alert("Invalid Entry. Please pick a number between 1 and 10 to find the polygon!");
+        getPolygon();
     }
-    if(input < -10 || input > 10 || imput == 0 || input == null)
+    else
     {
-        return false;
-    }
-    return true;
-}
-
-function getShape()
-{
-    while(true)
-    {
-        const polygons = ["henagon", "Digon", "Trigon", "Tretragon", "Pentagon", "Hexagon", "Heptagon", "Octagon", "Enneagon", "Decagon"];
-        let input = prompt("The Elegant Goose would like you to pick a number between 1 and 10: ", 1);
-        if(!validateEntry(input))
+        numberOfSides = Math.trunc(number);
+        if(numberOfSides < 1 || numberOfSides > 10)
         {
-            continue;
+            alert("Invalid Entry. Please pick a number between 1 and 10 to find the polygon!");
+            getPolygon();
         }
         else
         {
-            alert(polygons[Math.abs(Math.round(input)) - 1]);
-            break;
+            getShape(numberOfSides);
         }
-
     }
+}
+
+function getShape(sides)
+{
+    var polygons = new Array("monogon", "bigon", "triangle", "quadrilateral", "pentagon", "hexagon", "heptagon", "octagon", "nonagon", "decagon");
+    var message = "A polygon with " + sides + " sides is called a " + polygons[sides - 1] + ".";
+    document.getElementById("polygonName").innerHTML = message;
 }
