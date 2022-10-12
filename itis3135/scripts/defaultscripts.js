@@ -30,3 +30,11 @@ function dateAndTime()
     let fullDateAndTime = "Today is " + hour + ":" + minute + dayOrNight + " on " + dayOfWeek[day] + ", " + date + " " + monthName[monthNumber] + " " + year;
     document.getElementById("dateTimeOutput").innerHTML = fullDateAndTime;
 }
+
+function welcome()
+{
+    let name = document.getElementById("name").value;
+    let feeling = document.getElementById("feeling").value;
+    let fullWelcome = "Gustafson Designs welcomes you, " + name + "! We're glad that you are " + feeling + "!";
+    document.getElementById(welcomeOutput).innerHTML = fullWelcome;
+ }
