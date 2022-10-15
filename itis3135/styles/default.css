@@ -117,6 +117,73 @@ button:hover
     background-color: #a5baa2;
 }
 
+.calculator
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculatorButton
+{
+    background-color: #414141;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1pc, solid#000;
+}
+
+.calculatorButtonOperation
+{
+    background-color: #ff8b3d;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.calculatorButtonExtra
+{
+    background-color: #878787;
+    font-size: 2rem;
+}
+
+.calculatorButton:active
+{
+    background-color: #b4b4b4;
+}
+
+.calculatorButtonOperation:active
+{
+    background-color: #36494ec6;
+}
+
+.calculatorButtonExtra:active
+{
+    background-color: #878787;
+}
+
+.span-two
+{
+    grid-column: span 2;
+}
+
+.output
+{
+    grid-column: 1 / -1;
+    background-color: #000;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.output .currentOperand
+{
+    color: white;
+    font-size: 3rem;
+}
+
 footer
 {
     margin-top: 20px;
