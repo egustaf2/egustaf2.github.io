@@ -117,7 +117,12 @@ button:hover
     background-color: #a5baa2;
 }
 
-.calculator
+.calculator__keys
+{
+    display: grid;
+}
+
+/* .calculator
 {
     display: grid;
     justify-content: center;
@@ -197,7 +202,7 @@ button:hover
 {
     color: white;
     font-size: 3rem;
-}
+} */
 
 footer
 {
