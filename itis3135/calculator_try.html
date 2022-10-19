@@ -16,28 +16,26 @@
             <h2 ><strong>Calculator Try</strong></h2>
             <div class="container">
                 <div class="calculator">
-                    <div class="output">
-                        <div id="currentOperand" class="currentOperand">0</div>
+                    <div class="calculator__display">0</div>
+                    <div class="calculator__keys">
+                        <button class="key--operator" data-action="add">+</button>
+                        <button class="key--operator" data-action="subtract">-</button>
+                        <button class="key--operator" data-action="multiply">&times;</button>
+                        <button class="key--operator" data-action="divide">÷</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>0</button>
+                        <button data-action="decimal">.</button>
+                        <button data-action="clear">AC</button>
+                        <button class="key--equal" data-action="calculate">=</button>
                     </div>
-                    <button class="calculatorButtonExtra" data-action="clear" onclick="executeProgram(true,0,1); return false;">AC</button>
-                    <button class="calculatorButtonExtra" data-action="negate" onclick="executeProgram(true,0,2); return false;">+/-</button>
-                    <button class="calculatorButtonExtra" data-action="percentage" onclick="exectueProgram(true,0,3); return false;">%</button>
-                    <button class="calculatorButtonOperation" data-action="divide" onclick="executeProgram(true,0,4); return false;">÷</button>
-                    <button class="calculatorButton" value="1" onclick="executeProgram(false,1,0); return false;">1</button>
-                    <button class="calculatorButton" value="2" onclick="executeProgram(false,2,0); return false;">2</button>
-                    <button class="calculatorButton" value="3" onclick="executeProgram(false,3,0); return false;">3</button>
-                    <button class="calculatorButtonOperation" data-action="multiply" onclick="executeProgram(true,0,5); return false;">&times;</button>
-                    <button class="calculatorButton" value="4" onclick="executeProgram(false,4,0); return false;">4</button>
-                    <button class="calculatorButton" value="5" onclick="executeProgram(false,5,0); return false;">5</button>
-                    <button class="calculatorButton" value="6" onclick="executeProgram(false,6,0); return false;">6</button>
-                    <button class="calculatorButtonOperation" data-action="add" onclick="executeProgram(true,0,6); return false;">+</button>
-                    <button class="calculatorButton" value="7" onclick="executeProgram(false,7,0); return false;">7</button>
-                    <button class="calculatorButton" value="8" onclick="executeProgram(false,8,0); return false;">8</button>
-                    <button class="calculatorButton" value="9" onclick="executeProgram(false,9,0); return false;">9</button>
-                    <button class="calculatorButtonOperation" data-action="subtract" onclick="executeProgram(true,0,7); return false;">-</button>
-                    <button class="calculatorButton span-two" value="0" onclick="storeValue(0); return false;">0</button>
-                    <button class="calculatorButton" data-action="decimal" onclick="storeValue(1); return false;">.</button>
-                    <button class="calculatorButtonOperation" data-action="calculate" onclick="storeValue(1); return false;">=</button>
                 </div>
             </div>
         </main>
