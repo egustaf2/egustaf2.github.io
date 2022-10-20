@@ -153,10 +153,6 @@ button:hover
     position: relative;
     text-align: center;
   }
-
-  .calculator__keys.hover {
-    background-color: #999;
-  }
   
   .calculator__keys > *:active::before,
   .calculator__keys > .is-depressed::before {
