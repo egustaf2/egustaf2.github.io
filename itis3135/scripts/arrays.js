@@ -55,7 +55,7 @@ function displaySalary()
 
     for(i = 0; i < salary.length; i++)
     {
-        table += "<tr><td>" + employee[i] + "</td><td>" + salary[i] + "</td></tr>";
+        table += "<tr><td>" + person[i] + "</td><td>" + salary[i] + "</td></tr>";
     }
 
     table += "</table>";
