@@ -5,6 +5,7 @@
       	<title>
       		Hobby | Emily Gustafson| Elegant Goose | ITIS 3155
       	</title>
+        <script src="https://kit.fontawesome.com/1c8eefd787.js" crossorigin="anonymous"></script>
         <style>
             body
             {
@@ -56,18 +57,68 @@
                 text-align: center;
             }            
         </style>
+
+        <script>
+            let pageName = "";
+            function show(shown)
+            {
+                pageNameArray = document.getElementsByClassName("target");
+                for(let i = 0; i < pageNameArray.length; i++)
+                {
+                    if(pageNameArray[i].id == shown)
+                    {
+                        pageNameArray[i].style.display = "inherit";
+                    }
+                    else
+                    {
+                        pageNameArray[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
 	</head>
 
-	<body>
+	<body onload="show('home');">
 		<header>
-            <h1>What is Powerlifting?</h1>
-            <nav>
-                <a href="./">Home</a>
-            </nav>			
+            <h1>Powerlifting</h1>
+            <div class="nav">
+                <a href="." onclick="show('home');">Home</a> &#10030;
+                <a href="." onclick="show('squat');">How to Squat</a> &#10030;
+                <a href="." onclick="show('bench');">How to Bench</a> &#10030;
+                <a href="." onclick="show('deadlift');">How to Deadlift</a> &#10030;
+                <a href="." onclick="show('favorites');">My Favorite Powerlifters</a> &#10030;
+            </div>			
 		</header>
 
 		<main>
-			<h2><strong>What is powerlifting?</strong></h2>
+            <!-- Home page -->
+            <section id="home" class="target">
+                <h2><strong>What is Powerlifting?</strong></h2>
+                <p>
+                    Powerlifting is a strenght sport that consists of three compound movements; squat, bench, and deadlift.
+                </p>
+            </section>
+
+            <!-- How to Squat page -->
+            <section id="squat" class="target">
+                <h2><strong>Learn how to Squat</strong></h2>
+            </section>
+
+            <!-- How to Deadlift page -->
+            <section id="bench" class="target">
+                <h2><strong>Learn how to Bench</strong></h2>
+            </section>
+
+            <!-- How to Bench page -->
+            <section id="deadlift" class="target">
+                <h2><strong>Learn how to Deadlift</strong></h2>
+            </section>
+
+            <!-- My Favorite Powerlifters page -->
+            <section id="favorties" class="target">
+                <h2><strong>My favorite Powerlifters</strong></h2>
+            </section>
+
 		</main>
 
 		<footer>        
