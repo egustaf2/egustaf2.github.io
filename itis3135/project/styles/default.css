@@ -1,0 +1,49 @@
+body
+{
+    color: #1F1300;
+    background-color: #E0D2C3;
+    font-family: tahoma;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+footer
+{
+    margin-top: 20px;
+}
+
+figure img
+{
+    width: 300px;
+}
+
+figcaption
+{
+    padding-top: 10px;
+}
+
+a:link , a:visited
+{
+    color:#1F1300;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a:hover
+{
+    color:#655A47;
+}
+
+main h2
+{
+    text-align: center;
+}
+
+main h3
+{
+    text-align: center;
+}
