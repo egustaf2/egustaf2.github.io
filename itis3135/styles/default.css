@@ -281,7 +281,7 @@ button:hover
   .column 
   {
     float: left;
-    width: 16.66%;
+    width: 50%;
   }
   
   .demo 
@@ -293,4 +293,18 @@ button:hover
   .demo:hover 
   {
     opacity: 1;
+  }
+
+  .line
+  {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+  }
+
+  .column img
+  {
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
   }
