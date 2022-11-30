@@ -281,3 +281,27 @@ button:hover {
     margin-right: auto;
     width: 500px;
 }
+
+/* Activity 10 */
+#image {
+    border-radius: 10px;
+    height: 650px;
+    width: 1000px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#image_list li img {
+    width: 100px;
+    padding: 5px 5px;
+    background-color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+#image_list li{
+    list-style: none;
+    display: inline;
+}
