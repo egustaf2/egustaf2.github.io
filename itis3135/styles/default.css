@@ -305,3 +305,7 @@ button:hover {
     list-style: none;
     display: inline;
 }
+
+#image_list {
+    padding-right: 1.25vw;
+}
