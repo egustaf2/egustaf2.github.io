@@ -15,6 +15,38 @@
 
 		<main>
 			<h2><strong>Contact Us</strong></h2>
+			<form>
+				<p>
+					<label for="firstName"><strong>First Name:</strong></label>
+					<input type="text" name="firstName" id="firstName" placeholder="Ex: Jane" autocomplete="on" required>
+				</p>
+				<p>				
+					<label for="lastName"><strong>Last Name:</strong></label>
+					<input type="text" name="lastName" id="lastName" placeholder="Ex: Doe" autocomplete="on" required>
+				</p>
+				<p>
+					<label for="phoneNumber"><strong>Phone Number:</strong></label>
+					<input type="text" name="phoneNumber" id="phoneNumber" placeholder="Ex:###-###-####" autocomplete="on" required>
+				</p>
+				<p>
+					<label for="email"><strong>Email:</strong></label>
+					<input type="text" name="email" id="email" placeholder="Ex: janedoe@gmail.com" autocomplete="on" required>
+				</p>
+				<p>
+					<label for="reason"><strong>Reason:</strong></label>
+					<select name="reason" id="reason" size="4" required>
+						<option value="products">Questions about products</option>
+						<option value="bulk orders">Questions about bulk orders</option>
+						<option value="allergy and diet">Allergy/ Dietary Questions</option>
+						<option value="complements">Complements</option>
+						<option value="carrers">Carrers</option>
+					</select>
+				</p>
+				<p>
+					<label><strong>Comments:</strong></label>
+					<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+				</p>
+			</form>
 		</main>
 
 		<footer>
