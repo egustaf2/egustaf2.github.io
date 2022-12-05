@@ -1,1 +1,5 @@
 <h3 class="single">Emily Gustafson</h3>
+<p>
+Emily works at Gustafson's Bakery as a baker, barista, and web developer. She helps her mom and sister bake all of the goods and 
+makes coffee for customers. She is the lead web developer on the website for the company. 
+</p>
