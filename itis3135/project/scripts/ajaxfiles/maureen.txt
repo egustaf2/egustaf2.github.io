@@ -1,0 +1,5 @@
+<h3 class="single">Maureen Gustafson</h3>
+<p>
+Maureen is the co-owner and lead baker at Gustafson's Bakery. She has loved baking every since she was a young girl so she 
+made it her goal to open her own bakery to share her delicous treats with the world.
+</p>
