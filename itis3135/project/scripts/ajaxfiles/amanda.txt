@@ -1,2 +1,5 @@
 <h3 class="single">Amanda Gustafson</h3>
-<p>Amanda works at Gustafson's Bakery as the </p>
+<p>
+Amanda works at Gustafson's Bakery as a baker and a barista. She helps Maureen, her mom, bake all of the goods and 
+makes coffee to order for customers. She also runs the website with her sister, Emily. 
+</p>
